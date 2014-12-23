@@ -1,0 +1,26 @@
+    // 正常的返回值
+    OK(0),
+
+    // 账号未注册返回值
+    ACCOUNT_NOT_REGISTER(1000),
+
+    // 密码错误返回值
+    ACCOUNT_ERROR_PASSWORD(1001),
+
+    // 账号未认证返回值
+    ACCOUNT_NOT_VERIFICATION(1002),
+
+    // 账号已存在返回值
+    ACCOUNT_EXIST(1003),
+
+    // 账号激活码错误返回值
+    ACCOUNT_ACTIVE_ERROR(1004),
+
+    // 账号激活码失效返回值
+    ACCOUNT_ACTIVE_INVALID(1005),
+
+    // 账号已激活
+    ACCOUNT_ACTIVEED(1006),
+
+    // story 发布错误
+    STORY_PUBLISH_ERROR(2000),
