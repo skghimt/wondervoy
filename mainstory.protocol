@@ -10,9 +10,10 @@ request from:
 
 response:
     {
-        "data": [
-            {
-              
+        "data": 
+          "hasMore":true,
+          “users”:[
+              {
               "userId":12313,
               "firstName":"firstName",
               "lastName":"lastName",
