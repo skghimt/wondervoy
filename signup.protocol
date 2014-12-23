@@ -1,0 +1,23 @@
+
+URL  : account/signup
+
+Type : Post
+
+request from:
+   email     :    'xxxxx@163.com'
+   password  :    '12312dad'
+   firstName :    'firstName'
+   lastName  :    'lastName'   
+
+
+response:
+    {
+        "data": {
+        },
+        "message": "注册成功",
+        "state": 0
+    }  
+   
+ 说明:
+    state   0 表示注册操作成功   其余值表示操作异常
+    message 操作异常时使用

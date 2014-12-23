@@ -1,0 +1,24 @@
+
+URL  : account/signin
+
+Type : Post
+
+request from:
+   email     :    'xxxxx@163.com'
+   password  :    '12312dad'
+   source    :    'web'   // 此处web写死
+
+
+response:
+    {
+        "data": {
+            "session": "886b237359d4a53ac3572fa81075cc17"
+        },
+        "message": "登陆正常",
+        "state": 0
+    }  
+   
+ 说明:
+    state   0 表示登陆操作正常   其余值表示操作异常
+    message 操作异常时使用
+    session 登陆成功后附带的sesson   暂时不需要，web使用浏览器session进行交互

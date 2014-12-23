@@ -1,0 +1,43 @@
+
+URL  : story/main
+
+Type : Post
+
+request from:
+   index     :    1
+   size      :    10   
+
+
+response:
+    {
+        "data": [
+            {
+              
+              "userId":12313,
+              "firstName":"firstName",
+              "lastName":"lastName",
+              "icon":"http://1231231311313.jpg",
+              "storys":[
+                  {
+                      "storyId":123123,
+                      "coverPic":"http://1231231311313.jpg",
+                      "coverDesc":"desc"
+
+                  },
+                  {
+                      "storyId":123123,
+                      "coverPic":"http://1231231311313.jpg",
+                      "coverDesc":"desc"
+
+                  }...
+              ]
+
+            }...
+        ],
+        "message": "",
+        "state": 0
+    }  
+   
+ 说明:
+    state   0 表示获取信息成功   其余值表示获取异常
+    message 操作异常时使用
